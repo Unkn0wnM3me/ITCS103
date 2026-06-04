@@ -17,7 +17,7 @@ if not os.path.exists(EXCEL_FILE):
     sheet["E1"] = "Birth Year"
     sheet["F1"] = "Age"
     
-    sheet.append(["1", "Ken Gimelson", "Bernal", "Solo", 2000, 26])
+    sheet.append(["1", "Solo", "Ken Gimelson", "Bernal", 2007, 19])
     workbook.save(EXCEL_FILE)
 
 
